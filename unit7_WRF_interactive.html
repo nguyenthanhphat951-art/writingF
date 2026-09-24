@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Unit 7 – Kỹ Thuật Viết Lại Câu | IELTS Writing</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Open Sans',Arial,sans-serif;font-size:14px;background:#f4f6fb;color:#1e293b;line-height:1.75;}
+header{background:linear-gradient(135deg,#be185d 0%,#ec4899 100%);color:#fff;padding:36px 24px 28px;text-align:center;}
+header .badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:4px 18px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px;}
+header h1{font-size:2rem;font-weight:800;}
+header p{margin-top:6px;font-size:14px;opacity:.88;}
+nav{background:#be185d;position:sticky;top:0;z-index:100;display:flex;flex-wrap:wrap;gap:4px;padding:8px 16px;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+nav a{color:#fce7f3;text-decoration:none;padding:5px 12px;border-radius:6px;font-size:13px;transition:background .2s,color .2s;}
+nav a:hover{background:#ec4899;color:#fff;}
+.container{max-width:1050px;margin:0 auto;padding:28px 18px 60px;}
+section{margin-bottom:44px;}
+.sec-title{display:flex;align-items:center;gap:10px;font-size:1.25rem;font-weight:700;color:#be185d;border-bottom:3px solid #ec4899;padding-bottom:8px;margin-bottom:20px;}
+.sec-title .icon{width:32px;height:32px;background:#ec4899;border-radius:7px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;flex-shrink:0;}
+.sub-title{font-size:1rem;font-weight:700;color:#be185d;margin:20px 0 10px;padding-left:10px;border-left:4px solid #f59e0b;}
+.sub-title2{font-size:.95rem;font-weight:700;color:#ec4899;margin:16px 0 8px;}
+.card{background:#fff;border-radius:12px;padding:20px 22px;margin-bottom:18px;box-shadow:0 2px 10px rgba(0,0,0,.07);}
+.card-accent{border-left:5px solid #ec4899;}
+.tbl{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-bottom:16px;font-size:14px;}
+.tbl thead tr{background:#be185d;color:#fff;}
+.tbl th{padding:10px 14px;text-align:left;font-size:14px;}
+.tbl td{padding:9px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl tr:nth-child(even) td{background:#f8fafc;}
+.tbl .en{color:#1d4ed8;font-style:italic;}
+.tbl .vi{color:#64748b;font-size:13px;}
+.ex-box{background:#fdf2f8;border:1px solid #f9a8d4;border-radius:8px;padding:12px 16px;margin:10px 0;font-size:14px;}
+.ex-box .en{color:#be185d;font-weight:600;}
+.ex-box .vi{color:#64748b;font-size:13px;margin-top:2px;}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px;}
+.note strong{color:#92400e;}
+.step-box{background:#fdf2f8;border:1px solid #f9a8d4;border-radius:10px;padding:16px 20px;margin:12px 0;}
+.step-box .step-num{display:inline-block;background:#ec4899;color:#fff;border-radius:50%;width:28px;height:28px;text-align:center;line-height:28px;font-weight:700;font-size:13px;margin-right:8px;}
+.technique-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0;}
+.technique-card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.07);border-top:3px solid #ec4899;}
+.technique-card h4{font-weight:700;color:#be185d;margin-bottom:10px;font-size:14px;}
+.ex-block{background:#fff;border-radius:12px;padding:22px;margin-bottom:22px;box-shadow:0 2px 10px rgba(0,0,0,.07);border-top:4px solid #f59e0b;}
+.ex-block h3{font-size:15px;font-weight:700;color:#be185d;margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.ex-num{background:#f59e0b;color:#fff;border-radius:6px;padding:2px 10px;font-size:13px;white-space:nowrap;}
+.ex-item{margin-bottom:18px;font-size:14px;line-height:1.8;}
+.ex-item .num{font-weight:700;color:#64748b;margin-right:6px;}
+.orig-sent{background:#f8fafc;border-left:3px solid #ec4899;padding:8px 12px;border-radius:0 6px 6px 0;margin-bottom:8px;font-size:14px;color:#1e293b;}
+.hint-tag{display:inline-block;background:#fdf2f8;border:1px solid #f9a8d4;border-radius:4px;padding:2px 8px;font-size:12px;color:#be185d;font-weight:600;margin-bottom:6px;}
+.write-input{width:100%;border:2px solid #cbd5e1;border-radius:8px;padding:8px 12px;font-size:14px;font-family:inherit;resize:vertical;min-height:52px;outline:none;transition:border-color .2s;}
+.write-input:focus{border-color:#ec4899;}
+.write-input.checked{border-color:#f59e0b;background:#fffbeb;}
+.write-answer{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px 12px;margin-top:6px;font-size:13px;display:none;color:#15803d;}
+.write-answer.show{display:block;}
+.check-btn{display:inline-flex;align-items:center;gap:6px;background:#ec4899;color:#fff;border:none;border-radius:8px;padding:8px 20px;font-size:14px;font-family:inherit;cursor:pointer;margin-top:14px;transition:background .2s;font-weight:600;}
+.check-btn:hover{background:#be185d;}
+.reset-btn{display:inline-flex;align-items:center;gap:6px;background:#64748b;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:14px;font-family:inherit;cursor:pointer;margin-top:14px;margin-left:8px;transition:background .2s;}
+.reset-btn:hover{background:#475569;}
+.trans-item{margin-bottom:18px;font-size:14px;}
+.trans-vi{color:#1e293b;margin-bottom:6px;font-weight:600;}
+.trans-hint{color:#64748b;font-size:13px;margin-bottom:6px;}
+.trans-input{width:100%;border:2px solid #cbd5e1;border-radius:8px;padding:8px 12px;font-size:14px;font-family:inherit;resize:vertical;min-height:52px;outline:none;transition:border-color .2s;}
+.trans-input:focus{border-color:#ec4899;}
+.trans-input.checked{border-color:#f59e0b;background:#fffbeb;}
+.trans-answer{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px 12px;margin-top:6px;font-size:13px;display:none;color:#15803d;}
+.trans-answer.show{display:block;}
+.scroll-top{position:fixed;bottom:26px;right:26px;background:#ec4899;color:#fff;border:none;border-radius:50%;width:42px;height:42px;font-size:1.1rem;cursor:pointer;box-shadow:0 4px 12px rgba(236,72,153,.4);display:flex;align-items:center;justify-content:center;}
+.scroll-top:hover{background:#be185d;}
+footer{text-align:center;padding:22px;color:#64748b;font-size:13px;border-top:1px solid #e2e8f0;background:#fff;}
+@media(max-width:640px){.technique-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">IELTS Writing – Grammar</div>
+  <h1>📝 Unit 7: Kỹ Thuật Viết Lại Câu</h1>
+  <p>Ứng dụng trong IELTS Writing &amp; Bài tập tương tác có đáp án</p>
+</header>
+<nav>
+  <a href="#intro">Giới thiệu</a>
+  <a href="#steps">3 Bước</a>
+  <a href="#tech1">Đổi cấu trúc</a>
+  <a href="#tech2">Đổi dạng từ</a>
+  <a href="#tech3">Chủ ngữ giả</a>
+  <a href="#tech4">Bổ nghĩa</a>
+  <a href="#example">Ví dụ thực tế</a>
+  <a href="#practice">Practice</a>
+  <a href="#homework">Homework</a>
+</nav>
+<div class="container">
+
+<section id="intro">
+  <div class="sec-title"><div class="icon">📌</div>Giới Thiệu – Kỹ Thuật Viết Lại Câu</div>
+  <div class="card card-accent">
+    <p><strong>Câu gốc:</strong> <em>Reading books is necessary for children's development.</em></p>
+    <p style="margin-top:10px;"><strong>Câu viết lại:</strong></p>
+    <ol style="padding-left:20px;margin-top:6px;">
+      <li class="en">It is necessary for children to read books.</li>
+      <li class="en">Reading books plays an important part in the development of children.</li>
+    </ol>
+    <p style="margin-top:12px;">Mặc dù 3 câu trên sử dụng các cấu trúc ngữ pháp và từ vựng khác nhau, chúng đều truyền đạt thông điệp tương tự nhau.</p>
+  </div>
+  <div class="card">
+    <p>Luyện tập kỹ năng viết lại câu chính là luyện tập sử dụng ngôn ngữ một cách linh hoạt và làm cho văn phong trở nên đa dạng và thú vị.</p>
+    <p style="margin-top:10px;">Kỹ năng viết lại câu đóng vai trò quan trọng trong việc cải thiện điểm số kỹ năng viết trong bài thi IELTS vì nó giúp người viết:</p>
+    <ul style="padding-left:20px;margin-top:8px;">
+      <li>✅ Tránh lặp từ, lặp ý</li>
+      <li>✅ Thể hiện được năng lực diễn đạt tốt qua việc sử dụng từ vựng và ngữ pháp một cách linh hoạt</li>
+    </ul>
+  </div>
+</section>
+
+<section id="steps">
+  <div class="sec-title"><div class="icon">📋</div>2. Kỹ Thuật Viết Lại Câu – 3 Bước</div>
+  <div class="step-box"><span class="step-num">1</span><strong>Bước 1:</strong> Đọc hiểu ý nghĩa của câu gốc.</div>
+  <div class="step-box"><span class="step-num">2</span><strong>Bước 2:</strong> Thay một số từ trong câu gốc bằng những từ đồng nghĩa.</div>
+  <div class="step-box"><span class="step-num">3</span><strong>Bước 3:</strong> Sử dụng 1 hoặc kết hợp các thủ thuật sau:
+    <ul style="padding-left:24px;margin-top:8px;">
+      <li>Đổi cấu trúc câu.</li>
+      <li>Đổi dạng từ trong câu.</li>
+      <li>Sử dụng chủ ngữ giả.</li>
+      <li>Thêm thành phần bổ nghĩa / giải thích nghĩa.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="tech1">
+  <div class="sec-title"><div class="icon">1</div>Thủ Thuật 2.1 – Đổi Cấu Trúc Câu</div>
+  <div class="card card-accent">
+    <p>Đổi từ chủ động sang bị động hoặc ngược lại. Có thể đảo tân ngữ lên làm chủ ngữ và thay đổi từ vựng để tránh lặp cấu trúc câu gốc.</p>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Câu gốc</th><th>Câu viết lại</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="en">Employers should provide their employees with better salary packages.</td>
+        <td class="en">1. Employees should be provided with better salary packages by their employers.</td>
+        <td>Đổi sang bị động, đưa Employees lên làm chủ ngữ.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="en">2. Employees should receive better salary packages from their employers.</td>
+        <td>Thay <em>provide</em> bằng <em>receive</em> để đổi cách diễn đạt.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="tech2">
+  <div class="sec-title"><div class="icon">2</div>Thủ Thuật 2.2 – Đổi Dạng Từ Trong Câu</div>
+  <div class="card card-accent">
+    <p>Đổi động từ thành danh từ hoặc ngược lại. Khi đổi dạng từ, cần thay đổi cấu trúc câu và kiểm tra collocation để dùng cụm từ tự nhiên.</p>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Câu gốc</th><th>Câu viết lại</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="en">The government should support local businesses.</td>
+        <td class="en">The government should provide <strong>support</strong> for local businesses.</td>
+        <td>Đổi <em>support</em> từ động từ thành danh từ trong cụm <em>provide support for</em>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="tech3">
+  <div class="sec-title"><div class="icon">3</div>Thủ Thuật 2.3 – Sử Dụng Chủ Ngữ Giả</div>
+  <div class="card card-accent">
+    <p>Dùng <strong>it</strong> hoặc <strong>there</strong> để viết lại các câu có cấu trúc như should, need, must. Cách này giúp câu học thuật và linh hoạt hơn.</p>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Câu gốc</th><th>Câu viết lại</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="en">People need to protect the environment.</td>
+        <td class="en"><strong>It</strong> is necessary for people to protect the environment.</td>
+        <td>Dùng chủ ngữ giả <em>It</em> thay cho cấu trúc <em>People need to</em>.</td>
+      </tr>
+      <tr>
+        <td class="en">Smoking should be restricted in public places.</td>
+        <td class="en"><strong>There</strong> should be restriction on smoking in public places.</td>
+        <td>Dùng chủ ngữ giả <em>There</em> và đổi động từ bị động thành danh từ <em>restriction</em>.</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <strong>Lưu ý quan trọng trong IELTS Task 2:</strong><br/>
+    • Cấu trúc: <em>Many people believe that_</em> → Viết lại: <em>It is believed that_</em> (Chủ ngữ giả & bị động)<br/>
+    • Cấu trúc: <em>People should_</em> → Viết lại: <em>It is necessary for people to_</em> (Chủ ngữ giả)
+  </div>
+</section>
+
+<section id="tech4">
+  <div class="sec-title"><div class="icon">4</div>Thủ Thuật 2.4 – Thêm Thành Phần Bổ Nghĩa / Giải Thích Nghĩa</div>
+  <div class="card card-accent">
+    <p>Thêm phần bổ nghĩa hoặc giải thích nghĩa cho một thành phần trong câu gốc, thường bằng mệnh đề quan hệ.</p>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Câu gốc</th><th>Câu viết lại</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="en">The government should support local businesses.</td>
+        <td class="en">The government should support businesses <strong>that operate locally</strong>.</td>
+        <td>Dùng mệnh đề quan hệ <em>that operate locally</em> để giải thích nghĩa của <em>local</em>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="example">
+  <div class="sec-title"><div class="icon">💡</div>Áp Dụng Thực Tế – Ví Dụ Hoàn Chỉnh</div>
+  <div class="card card-accent">
+    <p><strong>Đề bài:</strong> <em>"Many people say that exercise is key to health while others believe that a balanced diet is more important."</em></p>
+  </div>
+
+  <div class="sub-title">Phân tích vế 1: Many people say that exercise is key to health.</div>
+  <div class="card">
+    <ul style="padding-left:20px;">
+      <li><strong>Many people say that</strong> → <em>It is usually said that</em> (Chủ động → Bị động)</li>
+      <li><strong>Exercise</strong> → <em>Physical training</em> hoặc <em>physical activities</em> (Giải thích nghĩa) hoặc <em>Exercising</em> (Đổi dạng từ: Danh từ → Động từ)</li>
+      <li><strong>Key to</strong> → <em>Play a vital role in</em> hoặc <em>be an extremely important factor/element</em> (Giải thích nghĩa)</li>
+      <li><strong>Health</strong> → Giữ nguyên hoặc đổi sang tính từ <em>healthy</em> và thêm danh từ <em>body</em> hoặc <em>life</em></li>
+    </ul>
+    <div class="ex-box" style="margin-top:12px;">
+      <div class="en">→ It is usually said that physical training is the key to a healthy life.</div>
+      <div class="en" style="margin-top:4px;">→ Physical training is usually said to be the most vital element in a healthy life.</div>
+    </div>
+  </div>
+
+  <div class="sub-title">Phân tích vế 2: others believe that a balanced diet is more important.</div>
+  <div class="card">
+    <ul style="padding-left:20px;">
+      <li>Sử dụng chủ ngữ giả (it): <em>It is more necessary to have a balanced diet.</em></li>
+      <li><strong>A balanced diet</strong> → Đưa ra định nghĩa: <em>a proper eating habit</em></li>
+    </ul>
+    <div class="ex-box" style="margin-top:12px;">
+      <div class="en">→ Physical training is usually said to be the most vital element in a healthy life while others think it is more necessary to have proper eating habits.</div>
+    </div>
+  </div>
+</section>
+<section id="practice"><div class="sec-title"><div class="icon">✏</div>PRACTICE</div><div class="ex-block" id="pb1"><h3><span class="ex-num">Bài 1</span> Viết lại những câu sau bằng nhiều cách dựa vào gợi ý</h3><div class="ex-item"><span class="num">1.</span><div class="orig-sent">Children should obey the rules their parents and teachers set.</div><div class="hint-tag">→ Chủ ngữ giả</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-1-1"><strong>Gợi ý:</strong> It is necessary for children to obey the rules set by their parents and teachers. / It is important that children obey the rules their parents and teachers set.</div></div><div class="ex-item"><span class="num">2.</span><div class="orig-sent">Governments should spend money on measures to save languages that are used by few speakers.</div><div class="hint-tag">→ Chủ động → Bị động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-2-2"><strong>Gợi ý:</strong> Money should be spent by governments on measures to save languages that are used by few speakers.</div><div class="hint-tag">→ Chủ ngữ giả</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-2-2"><strong>Gợi ý:</strong> It is necessary for governments to spend money on measures to save languages that are used by few speakers.</div></div><div class="ex-item"><span class="num">3.</span><div class="orig-sent">Programs with violent content should be restricted.</div><div class="hint-tag">→ Bị động → Chủ động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-3-3"><strong>Gợi ý:</strong> The government / authorities should restrict programs with violent content.</div><div class="hint-tag">→ Chủ ngữ giả</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-3-3"><strong>Gợi ý:</strong> It is necessary to restrict programs with violent content.</div><div class="hint-tag">→ Chủ ngữ giả & Đổi dạng từ: restricted → restriction</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-3-3"><strong>Gợi ý:</strong> There should be restriction on programs with violent content.</div></div><div class="ex-item"><span class="num">4.</span><div class="orig-sent">The environment is being seriously damaged by human activities.</div><div class="hint-tag">→ Bị động → Chủ động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-4-4"><strong>Gợi ý:</strong> Human activities are seriously damaging the environment.</div><div class="hint-tag">→ Bị động → Chủ động & Đổi dạng từ: damage (v) → damage (n)</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-4-4"><strong>Gợi ý:</strong> Human activities are causing serious damage to the environment.</div></div><div class="ex-item"><span class="num">5.</span><div class="orig-sent">The government should carry out regulations to protect endangered animals.</div><div class="hint-tag">→ Chủ động → Bị động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-5-5"><strong>Gợi ý:</strong> Regulations should be carried out by the government to protect endangered animals.</div><div class="hint-tag">→ Chủ ngữ giả 'it'</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="pb1-5-5"><strong>Gợi ý:</strong> It is necessary for the government to carry out regulations to protect endangered animals.</div></div><button class="check-btn" onclick="checkTrans('pb1')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('pb1')">↺ Làm lại</button></div><div class="ex-block" id="pb2"><h3><span class="ex-num">Bài 2</span> Viết lại những câu sau (Tự do – Paraphrase)</h3><div class="ex-item"><span class="num">1.</span><div class="orig-sent">The government spends too much money on developing space exploration technology.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-1"><strong>Gợi ý đáp án:</strong> Too much money is spent by the government on developing space exploration technology. / It is argued that the government allocates excessive funding to the development of space exploration technology.</div></div><div class="ex-item"><span class="num">2.</span><div class="orig-sent">Some unpaid community services should be a compulsory part of high school programs.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-2"><strong>Gợi ý đáp án:</strong> It is necessary for some unpaid community services to be included as a mandatory component of high school programs. / High school programs should require students to participate in some unpaid community services.</div></div><div class="ex-item"><span class="num">3.</span><div class="orig-sent">In today's world of advanced science and technology, we still greatly value our artists such as musicians, painters and writers.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-3"><strong>Gợi ý đáp án:</strong> Despite the rapid advancement of science and technology, artists such as musicians, painters and writers are still highly appreciated in today's world.</div></div><div class="ex-item"><span class="num">4.</span><div class="orig-sent">Public museums and art galleries will not be needed because people can see historical objects and works of art by using a computer.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-4"><strong>Gợi ý đáp án:</strong> It is believed that public museums and art galleries will become unnecessary as people are able to view historical objects and works of art through computers.</div></div><div class="ex-item"><span class="num">5.</span><div class="orig-sent">Too much attention and too many resources are given to the protection of wild animals.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-5"><strong>Gợi ý đáp án:</strong> The protection of wild animals is receiving excessive attention and resources. / It is argued that too much attention and too many resources are devoted to protecting wild animals.</div></div><div class="ex-item"><span class="num">6.</span><div class="orig-sent">Artists should receive funding from the government in order for them to continue with their work.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-6"><strong>Gợi ý đáp án:</strong> The government should provide financial support for artists so that they can continue with their work. / It is necessary for the government to fund artists in order for them to continue their creative work.</div></div><div class="ex-item"><span class="num">7.</span><div class="orig-sent">The performance of staff can have a significant impact on the success of a company.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-7"><strong>Gợi ý đáp án:</strong> How well employees perform can significantly affect the success of a company. / Staff performance plays a vital role in determining the success of a company.</div></div><div class="ex-item"><span class="num">8.</span><div class="orig-sent">Professional workers like doctors, nurses and teachers make a greater contribution to society and should be paid more than sports and entertainment celebrities.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-8"><strong>Gợi ý đáp án:</strong> It is argued that professional workers such as doctors, nurses and teachers, who contribute more significantly to society, deserve higher salaries than sports and entertainment celebrities.</div></div><div class="ex-item"><span class="num">9.</span><div class="orig-sent">Wild animals have no place in the 21st century; therefore, protecting them is a waste of money.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-9"><strong>Gợi ý đáp án:</strong> Some people believe that wild animals are irrelevant in the 21st century; consequently, spending money on their protection is considered unnecessary.</div></div><div class="ex-item"><span class="num">10.</span><div class="orig-sent">Detailed description of crimes on TV is having a bad effect on society; therefore, it should be restricted.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="pb2-10"><strong>Gợi ý đáp án:</strong> The detailed portrayal of crimes on television is negatively affecting society; as a result, there should be restrictions on such content.</div></div><button class="check-btn" onclick="checkTrans('pb2')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('pb2')">↺ Làm lại</button></div></section><section id="homework"><div class="sec-title"><div class="icon">📚</div>HOMEWORK</div><div class="ex-block" id="hwb1"><h3><span class="ex-num">Bài 1</span> Viết lại những câu sau bằng nhiều cách dựa vào gợi ý</h3><div class="ex-item"><span class="num">1.</span><div class="orig-sent">Workers should continuously upgrade their professional skills to survive in the competitive job market.</div><div class="hint-tag">→ Chủ ngữ giả 'It is...'</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-1"><strong>Gợi ý:</strong> It is necessary for workers to continuously upgrade their professional skills to survive in the competitive job market.</div></div><div class="ex-item"><span class="num">2.</span><div class="orig-sent">Educational institutions should provide financial assistance to students from low-income families.</div><div class="hint-tag">→ Bị động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-2"><strong>Gợi ý:</strong> Financial assistance should be provided to students from low-income families by educational institutions.</div><div class="hint-tag">→ Chủ ngữ giả 'It is...'</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-2"><strong>Gợi ý:</strong> It is necessary for educational institutions to provide financial assistance to students from low-income families.</div></div><div class="ex-item"><span class="num">3.</span><div class="orig-sent">Online games with highly addictive elements should be banned.</div><div class="hint-tag">→ Chủ động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-3"><strong>Gợi ý:</strong> The government / authorities should ban online games with highly addictive elements.</div><div class="hint-tag">→ Chủ ngữ giả 'It is...'</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-3"><strong>Gợi ý:</strong> It is necessary to ban online games with highly addictive elements.</div><div class="hint-tag">→ Chủ ngữ giả & Đổi dạng từ: ban (n)</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-3"><strong>Gợi ý:</strong> There should be a ban on online games with highly addictive elements.</div></div><div class="ex-item"><span class="num">4.</span><div class="orig-sent">Air quality is being severely contaminated by emissions from heavy industries.</div><div class="hint-tag">→ Chủ động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-4"><strong>Gợi ý:</strong> Emissions from heavy industries are severely contaminating air quality.</div><div class="hint-tag">→ Chủ động & Đổi dạng từ: contamination (n)</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-4"><strong>Gợi ý:</strong> Emissions from heavy industries are causing severe contamination of air quality.</div></div><div class="ex-item"><span class="num">5.</span><div class="orig-sent">The authorities should enforce strict regulations to limit the use of single-use plastics.</div><div class="hint-tag">→ Bị động</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-5"><strong>Gợi ý:</strong> Strict regulations should be enforced by the authorities to limit the use of single-use plastics.</div><div class="hint-tag">→ Chủ ngữ giả 'It is...'</div><textarea class="write-input" placeholder="Viết lại câu..."></textarea><div class="write-answer" id="hwb1-5"><strong>Gợi ý:</strong> It is necessary for the authorities to enforce strict regulations to limit the use of single-use plastics.</div></div><button class="check-btn" onclick="checkTrans('hwb1')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('hwb1')">↺ Làm lại</button></div><div class="ex-block" id="hwb2"><h3><span class="ex-num">Bài 2</span> Viết lại những câu sau (Tự do / Paraphrase tự chọn cấu trúc)</h3><div class="ex-item"><span class="num">1.</span><div class="orig-sent">The government spends too much money on building infrastructure in metropolitan areas.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-1"><strong>Gợi ý đáp án:</strong> Too much money is spent by the government on building infrastructure in metropolitan areas. / It is argued that the government allocates excessive funding to infrastructure development in major cities.</div></div><div class="ex-item"><span class="num">2.</span><div class="orig-sent">Physical education should be a mandatory part of primary school curriculums.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-2"><strong>Gợi ý đáp án:</strong> It is necessary for physical education to be included as a compulsory subject in primary school curriculums. / Primary school curriculums should require students to participate in physical education.</div></div><div class="ex-item"><span class="num">3.</span><div class="orig-sent">In today's digital era, people still highly appreciate traditional forms of art such as opera, theater, and ceramics.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-3"><strong>Gợi ý đáp án:</strong> Despite the rapid development of the digital era, traditional art forms such as opera, theater, and ceramics are still highly valued by people today.</div></div><div class="ex-item"><span class="num">4.</span><div class="orig-sent">Printed textbooks and brick-and-mortar schools will not be needed because students can absorb knowledge by using online learning platforms.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-4"><strong>Gợi ý đáp án:</strong> It is believed that printed textbooks and traditional schools will become unnecessary as students are able to acquire knowledge through online learning platforms.</div></div><div class="ex-item"><span class="num">5.</span><div class="orig-sent">Too much attention and too many resources are given to the development of artificial intelligence.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-5"><strong>Gợi ý đáp án:</strong> The development of artificial intelligence is receiving excessive attention and resources. / It is argued that too much attention and too many resources are devoted to developing artificial intelligence.</div></div><div class="ex-item"><span class="num">6.</span><div class="orig-sent">Scientists should receive financial aid from the state in order for them to conduct research on renewable energy sources.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-6"><strong>Gợi ý đáp án:</strong> The state should provide financial support for scientists so that they can conduct research on renewable energy sources. / It is necessary for the state to fund scientists in order for them to research renewable energy sources.</div></div><div class="ex-item"><span class="num">7.</span><div class="orig-sent">The behavior of parents can have a significant impact on the psychological development of a child.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-7"><strong>Gợi ý đáp án:</strong> How parents behave can significantly affect the psychological development of a child. / Parental behavior plays a vital role in shaping the psychological development of children.</div></div><div class="ex-item"><span class="num">8.</span><div class="orig-sent">Remote jobs make a greater contribution to the reduction of traffic congestion and should be encouraged more than traditional office work.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-8"><strong>Gợi ý đáp án:</strong> It is argued that remote jobs, which contribute more significantly to reducing traffic congestion, should be promoted over traditional office work.</div></div><div class="ex-item"><span class="num">9.</span><div class="orig-sent">Traditional handcraft skills have no place in the modern economy; therefore, preserving them is a waste of financial resources.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-9"><strong>Gợi ý đáp án:</strong> Some people believe that traditional handcraft skills are irrelevant in the modern economy; consequently, spending financial resources on their preservation is considered unnecessary.</div></div><div class="ex-item"><span class="num">10.</span><div class="orig-sent">Constant exposure to misleading information on social media is having a bad effect on young citizens; therefore, it should be strictly monitored.</div><textarea class="write-input" placeholder="Viết lại câu theo cách của bạn..."></textarea><div class="write-answer" id="hwb2-10"><strong>Gợi ý đáp án:</strong> The constant exposure of young citizens to misleading information on social media is negatively affecting them; as a result, social media content should be strictly monitored.</div></div><button class="check-btn" onclick="checkTrans('hwb2')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('hwb2')">↺ Làm lại</button></div></section>
+</div>
+<footer>
+  <p>📝 <strong>Unit 7: Kỹ Thuật Viết Lại Câu</strong> &nbsp;|&nbsp; IELTS Writing – Grammar</p>
+  <p style="margin-top:6px;">Tài liệu học tập – Lưu hành nội bộ</p>
+</footer>
+<button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Lên đầu trang">↑</button>
+<script>
+function checkTrans(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.trans-answer,.write-answer').forEach(el=>el.classList.add('show'));
+  block.querySelectorAll('.trans-input,.write-input').forEach(inp=>{if(inp.value.trim())inp.classList.add('checked');});
+}
+function resetTrans(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.trans-input,.write-input').forEach(inp=>{inp.value='';inp.classList.remove('checked');});
+  block.querySelectorAll('.trans-answer,.write-answer').forEach(el=>el.classList.remove('show'));
+}
+</script>
+</body>
+</html>

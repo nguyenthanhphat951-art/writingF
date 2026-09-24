@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Unit 2 – Bổ Ngữ Của Động Từ | IELTS Writing</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Open Sans',Arial,sans-serif;font-size:14px;background:#f4f6fb;color:#1e293b;line-height:1.75;}
+header{background:linear-gradient(135deg,#0f4c81 0%,#1e88e5 100%);color:#fff;padding:36px 24px 28px;text-align:center;}
+header .badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:4px 18px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px;}
+header h1{font-size:2rem;font-weight:800;}
+header p{margin-top:6px;font-size:14px;opacity:.88;}
+nav{background:#0f4c81;position:sticky;top:0;z-index:100;display:flex;flex-wrap:wrap;gap:4px;padding:8px 16px;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+nav a{color:#cbd5e1;text-decoration:none;padding:5px 12px;border-radius:6px;font-size:13px;transition:background .2s,color .2s;}
+nav a:hover{background:#1e88e5;color:#fff;}
+.container{max-width:1050px;margin:0 auto;padding:28px 18px 60px;}
+section{margin-bottom:44px;}
+.sec-title{display:flex;align-items:center;gap:10px;font-size:1.25rem;font-weight:700;color:#0f4c81;border-bottom:3px solid #1e88e5;padding-bottom:8px;margin-bottom:20px;}
+.sec-title .icon{width:32px;height:32px;background:#1e88e5;border-radius:7px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1rem;flex-shrink:0;}
+.sub-title{font-size:1rem;font-weight:700;color:#0f4c81;margin:20px 0 10px;padding-left:10px;border-left:4px solid #f59e0b;}
+.sub-title2{font-size:.95rem;font-weight:700;color:#1e88e5;margin:16px 0 8px;}
+.card{background:#fff;border-radius:12px;padding:20px 22px;margin-bottom:18px;box-shadow:0 2px 10px rgba(0,0,0,.07);}
+.card-accent{border-left:5px solid #1e88e5;}
+.card-yellow{border-left:5px solid #f59e0b;}
+.card-green{border-left:5px solid #22c55e;}
+.tbl{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-bottom:16px;font-size:14px;}
+.tbl thead tr{background:#0f4c81;color:#fff;}
+.tbl th{padding:10px 14px;text-align:left;font-size:14px;}
+.tbl td{padding:9px 14px;border-bottom:1px solid #e2e8f0;vertical-align:top;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl tr:nth-child(even) td{background:#f8fafc;}
+.tbl .en{color:#1d4ed8;font-style:italic;}
+.tbl .vi{color:#64748b;font-size:13px;}
+.ex-box{background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px 16px;margin:10px 0;font-size:14px;}
+.ex-box .en{color:#1d4ed8;font-weight:600;}
+.ex-box .vi{color:#64748b;font-size:13px;margin-top:2px;}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;margin:12px 0;font-size:14px;}
+.note strong{color:#92400e;}
+.rule-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin:10px 0;font-size:14px;}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0;}
+.compare-card{border-radius:8px;padding:14px 16px;font-size:14px;}
+.compare-card.blue{background:#eff6ff;border:1px solid #bfdbfe;}
+.compare-card.green{background:#f0fdf4;border:1px solid #bbf7d0;}
+.compare-card h4{font-weight:700;margin-bottom:8px;font-size:14px;}
+.compare-card.blue h4{color:#1d4ed8;}
+.compare-card.green h4{color:#15803d;}
+.ex-block{background:#fff;border-radius:12px;padding:22px;margin-bottom:22px;box-shadow:0 2px 10px rgba(0,0,0,.07);border-top:4px solid #f59e0b;}
+.ex-block h3{font-size:15px;font-weight:700;color:#0f4c81;margin-bottom:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.ex-num{background:#f59e0b;color:#fff;border-radius:6px;padding:2px 10px;font-size:13px;white-space:nowrap;}
+.ex-item{margin-bottom:14px;font-size:14px;line-height:2;}
+.ex-item .num{font-weight:700;color:#64748b;margin-right:6px;}
+.fill-input{border:none;border-bottom:2px solid #94a3b8;background:transparent;font-family:inherit;font-size:14px;color:#1e293b;padding:2px 6px;outline:none;transition:border-color .2s;}
+.fill-input:focus{border-color:#1e88e5;}
+.fill-input.correct{border-color:#22c55e;background:#f0fdf4;color:#15803d;font-weight:700;}
+.fill-input.wrong{border-color:#ef4444;background:#fef2f2;color:#dc2626;}
+.mc-group{display:inline-flex;gap:6px;flex-wrap:wrap;margin:0 4px;}
+.mc-btn{border:2px solid #cbd5e1;border-radius:6px;background:#f8fafc;padding:3px 12px;font-size:14px;font-family:inherit;cursor:pointer;transition:all .15s;color:#1e293b;}
+.mc-btn:hover{border-color:#1e88e5;background:#eff6ff;color:#1d4ed8;}
+.mc-btn.selected{border-color:#1e88e5;background:#eff6ff;color:#1d4ed8;font-weight:600;}
+.mc-btn.correct{border-color:#22c55e;background:#f0fdf4;color:#15803d;font-weight:700;}
+.mc-btn.wrong{border-color:#ef4444;background:#fef2f2;color:#dc2626;}
+.mc-btn.reveal-correct{border-color:#22c55e;background:#f0fdf4;color:#15803d;font-weight:700;}
+.check-btn{display:inline-flex;align-items:center;gap:6px;background:#1e88e5;color:#fff;border:none;border-radius:8px;padding:8px 20px;font-size:14px;font-family:inherit;cursor:pointer;margin-top:14px;transition:background .2s;font-weight:600;}
+.check-btn:hover{background:#0f4c81;}
+.reset-btn{display:inline-flex;align-items:center;gap:6px;background:#64748b;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:14px;font-family:inherit;cursor:pointer;margin-top:14px;margin-left:8px;transition:background .2s;}
+.reset-btn:hover{background:#475569;}
+.score-badge{display:inline-block;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:6px 14px;font-size:14px;color:#15803d;font-weight:700;margin-top:10px;}
+.score-badge.bad{background:#fef2f2;border-color:#fecaca;color:#dc2626;}
+.score-badge.mid{background:#fffbeb;border-color:#fde68a;color:#92400e;}
+.answer-key{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin-top:12px;font-size:13px;display:none;}
+.answer-key.show{display:block;}
+.answer-key strong{color:#15803d;}
+.trans-item{margin-bottom:18px;font-size:14px;}
+.trans-vi{color:#1e293b;margin-bottom:6px;font-weight:600;}
+.trans-hint{color:#64748b;font-size:13px;margin-bottom:6px;}
+.trans-input{width:100%;border:2px solid #cbd5e1;border-radius:8px;padding:8px 12px;font-size:14px;font-family:inherit;resize:vertical;min-height:52px;outline:none;transition:border-color .2s;}
+.trans-input:focus{border-color:#1e88e5;}
+.trans-input.checked{border-color:#f59e0b;background:#fffbeb;}
+.trans-answer{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px 12px;margin-top:6px;font-size:13px;display:none;color:#15803d;}
+.trans-answer.show{display:block;}
+.write-item{margin-bottom:18px;font-size:14px;}
+.write-prompt{color:#1e293b;margin-bottom:6px;font-weight:600;}
+.write-hint{color:#64748b;font-size:13px;margin-bottom:6px;}
+.write-input{width:100%;border:2px solid #cbd5e1;border-radius:8px;padding:8px 12px;font-size:14px;font-family:inherit;resize:vertical;min-height:52px;outline:none;transition:border-color .2s;}
+.write-input:focus{border-color:#1e88e5;}
+.write-input.checked{border-color:#f59e0b;background:#fffbeb;}
+.write-answer{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px 12px;margin-top:6px;font-size:13px;display:none;color:#15803d;}
+.write-answer.show{display:block;}
+.correct-tag{color:#15803d;font-weight:700;font-size:13px;margin-left:6px;}
+.wrong-tag{color:#dc2626;font-weight:700;font-size:13px;margin-left:6px;}
+.scroll-top{position:fixed;bottom:26px;right:26px;background:#1e88e5;color:#fff;border:none;border-radius:50%;width:42px;height:42px;font-size:1.1rem;cursor:pointer;box-shadow:0 4px 12px rgba(30,136,229,.4);display:flex;align-items:center;justify-content:center;}
+.scroll-top:hover{background:#0f4c81;}
+footer{text-align:center;padding:22px;color:#64748b;font-size:13px;border-top:1px solid #e2e8f0;background:#fff;}
+@media(max-width:640px){.compare-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">IELTS Writing – Grammar</div>
+  <h1>📝 Unit 2: Bổ Ngữ Của Động Từ</h1>
+  <p>Lý thuyết đầy đủ &amp; Bài tập tương tác có đáp án</p>
+</header>
+<nav>
+  <a href="#intro">Giới thiệu</a>
+  <a href="#ving-tov">V-ing / to-V</a>
+  <a href="#sb-tov">sb + to V</a>
+  <a href="#special">Động từ đặc biệt</a>
+  <a href="#practice">Practice</a>
+  <a href="#homework">Homework</a>
+</nav>
+<div class="container">
+
+<section id="intro">
+  <div class="sec-title"><div class="icon">📌</div>Bổ Ngữ Của Động Từ Chính</div>
+  <div class="card card-accent">
+    <p>Bổ ngữ của động từ chính trong câu có thể là:</p>
+    <ul style="padding-left:20px;margin-top:10px;">
+      <li><strong>(1) to-V</strong></li>
+      <li><strong>(2) V-ing</strong></li>
+      <li><strong>(3) sb + to V</strong></li>
+      <li><strong>(4) Mệnh đề danh từ</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section id="ving-tov">
+  <div class="sec-title"><div class="icon">1</div>Bổ Ngữ Dạng V-ing và to-V</div>
+  <div class="card card-accent">
+    <table class="tbl">
+      <thead><tr><th>Dạng bổ ngữ</th><th>Câu đúng ✓</th><th>Câu sai ✗</th><th>Giải thích</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Động từ + V-ing</strong></td>
+          <td class="en">Many people avoid eating unhealthy food.</td>
+          <td class="en">✗ Many people avoid to eat unhealthy food.<br/>✗ Many people avoid eat unhealthy food.</td>
+          <td>Động từ chính "avoid" chỉ có thể kết hợp với bổ ngữ dạng V-ing.</td>
+        </tr>
+        <tr>
+          <td><strong>Động từ + to V</strong></td>
+          <td class="en">Many people decide to eat healthy food.</td>
+          <td class="en">✗ Many people decide eating healthy food.<br/>✗ Many people decide eat healthy food.</td>
+          <td>Động từ chính "decide" chỉ có thể kết hợp với bổ ngữ dạng to V.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="compare-grid">
+    <div class="compare-card blue">
+      <h4>🔵 Động từ + V-ing</h4>
+      <table style="width:100%;font-size:13px;border-collapse:collapse;">
+        <thead><tr><th style="text-align:left;padding:4px 8px;background:#dbeafe;border-radius:4px;">Động từ</th><th style="text-align:left;padding:4px 8px;background:#dbeafe;border-radius:4px;">Ý nghĩa</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:4px 8px;"><strong>Avoid</strong></td><td style="padding:4px 8px;">tránh</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Consider</strong></td><td style="padding:4px 8px;">cân nhắc</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Finish</strong></td><td style="padding:4px 8px;">hoàn thành</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Complete</strong></td><td style="padding:4px 8px;">hoàn thành</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Keep</strong></td><td style="padding:4px 8px;">tiếp tục</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Continue</strong></td><td style="padding:4px 8px;">tiếp tục</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Like / Enjoy</strong></td><td style="padding:4px 8px;">thích</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Dislike</strong></td><td style="padding:4px 8px;">không thích</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Prefer</strong></td><td style="padding:4px 8px;">thích hơn</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Postpone</strong></td><td style="padding:4px 8px;">hoãn lại</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Practice</strong></td><td style="padding:4px 8px;">luyện tập</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Prevent / Prohibit</strong></td><td style="padding:4px 8px;">ngăn cản / cấm</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Regret</strong></td><td style="padding:4px 8px;">hối hận</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Resume</strong></td><td style="padding:4px 8px;">tiếp tục sau khi bị gián đoạn</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Risk</strong></td><td style="padding:4px 8px;">liều / chịu rủi ro</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Start / Begin</strong></td><td style="padding:4px 8px;">bắt đầu</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Try</strong></td><td style="padding:4px 8px;">thử làm gì</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Quit</strong></td><td style="padding:4px 8px;">từ bỏ</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>Stop</strong></td><td style="padding:4px 8px;">dừng lại</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="compare-card green">
+      <h4>🟢 Động từ + to V</h4>
+      <table style="width:100%;font-size:13px;border-collapse:collapse;">
+        <thead><tr><th style="text-align:left;padding:4px 8px;background:#dcfce7;border-radius:4px;">Động từ</th><th style="text-align:left;padding:4px 8px;background:#dcfce7;border-radius:4px;">Ý nghĩa</th></tr></thead>
+        <tbody>
+          <tr><td style="padding:4px 8px;"><strong>agree</strong></td><td style="padding:4px 8px;">đồng ý</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>attempt / try</strong></td><td style="padding:4px 8px;">cố gắng</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>afford</strong></td><td style="padding:4px 8px;">có đủ tiền/thời gian để làm gì đó</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>decide</strong></td><td style="padding:4px 8px;">quyết định</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>choose</strong></td><td style="padding:4px 8px;">lựa chọn</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>demand</strong></td><td style="padding:4px 8px;">yêu cầu</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>deserve</strong></td><td style="padding:4px 8px;">đáng/xứng đáng</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>determine</strong></td><td style="padding:4px 8px;">quyết định</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>expect / hope</strong></td><td style="padding:4px 8px;">kỳ vọng / hy vọng</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>fail</strong></td><td style="padding:4px 8px;">thất bại / không thể</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>learn</strong></td><td style="padding:4px 8px;">học</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>manage</strong></td><td style="padding:4px 8px;">xoay xở</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>offer</strong></td><td style="padding:4px 8px;">đề nghị / tỏ ý muốn</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>plan</strong></td><td style="padding:4px 8px;">có kế hoạch</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>prepare</strong></td><td style="padding:4px 8px;">chuẩn bị</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>promise</strong></td><td style="padding:4px 8px;">hứa</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>refuse</strong></td><td style="padding:4px 8px;">từ chối</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>remember</strong></td><td style="padding:4px 8px;">nhớ (phải làm gì)</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>strive / struggle</strong></td><td style="padding:4px 8px;">nỗ lực / cố gắng</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>tend</strong></td><td style="padding:4px 8px;">có khuynh hướng / thường</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>threaten</strong></td><td style="padding:4px 8px;">đe dọa</td></tr>
+          <tr><td style="padding:4px 8px;"><strong>want / wish</strong></td><td style="padding:4px 8px;">mong muốn</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="sb-tov">
+  <div class="sec-title"><div class="icon">2</div>Bổ Ngữ Dạng sb + to V</div>
+  <div class="card card-accent">
+    <p>Một số động từ có thể kết hợp với bổ ngữ dạng <strong>sb + to V</strong>:</p>
+    <div class="ex-box" style="margin-top:12px;">
+      <div class="en">✓ The government requires farmers to provide fresh food for consumers.</div>
+      <div class="vi">Chính phủ yêu cầu người nông dân cung cấp thực phẩm tươi cho người tiêu dùng.</div>
+      <div style="margin-top:8px;color:#ef4444;font-size:13px;">✗ The government requires farmers provide fresh food for consumers.<br/>✗ The government requires farmers providing fresh food for consumers.</div>
+      <div style="margin-top:6px;color:#15803d;font-size:13px;"><strong>Cấu trúc đúng:</strong> require somebody to do something</div>
+    </div>
+  </div>
+  <table class="tbl">
+    <thead><tr><th>Động từ</th><th>Ý nghĩa</th><th>Động từ</th><th>Ý nghĩa</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Advise</strong></td><td>khuyên</td><td><strong>invite</strong></td><td>mời</td></tr>
+      <tr><td><strong>recommend</strong></td><td>giới thiệu / khuyên</td><td><strong>motivate</strong></td><td>thúc đẩy / tạo động lực</td></tr>
+      <tr><td><strong>Allow</strong></td><td>cho phép</td><td><strong>persuade</strong></td><td>thuyết phục</td></tr>
+      <tr><td><strong>Permit</strong></td><td>cho phép</td><td><strong>promise</strong></td><td>hứa</td></tr>
+      <tr><td><strong>Ask</strong></td><td>yêu cầu</td><td><strong>Order</strong></td><td>ra lệnh</td></tr>
+      <tr><td><strong>Tell</strong></td><td>bảo</td><td><strong>remind</strong></td><td>nhắc nhở</td></tr>
+      <tr><td><strong>Challenge</strong></td><td>thách thức</td><td><strong>require</strong></td><td>yêu cầu</td></tr>
+      <tr><td><strong>Choose</strong></td><td>chọn lựa</td><td><strong>teach</strong></td><td>dạy</td></tr>
+      <tr><td><strong>Enable</strong></td><td>khiến ai có thể làm gì</td><td><strong>urge</strong></td><td>thúc giục</td></tr>
+      <tr><td><strong>Expect</strong></td><td>kỳ vọng</td><td><strong>want</strong></td><td>muốn</td></tr>
+      <tr><td><strong>instruct</strong></td><td>hướng dẫn</td><td><strong>warn (sb not to V)</strong></td><td>cảnh báo ai không làm gì</td></tr>
+      <tr><td><strong>encourage</strong></td><td>khuyến khích</td><td><strong>Forbid</strong></td><td>cấm</td></tr>
+      <tr><td><strong>Force</strong></td><td>bắt buộc</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="special">
+  <div class="sec-title"><div class="icon">⚠</div>Ba Động Từ Đặc Biệt: help, make, let</div>
+  <div class="note"><strong>Lưu ý:</strong> Các động từ này được kết hợp với bổ ngữ dạng <strong>sb + động từ nguyên thể</strong> (không có "to")</div>
+  <table class="tbl">
+    <thead><tr><th>Cấu trúc</th><th>Ví dụ đúng ✓</th><th>Ví dụ sai ✗</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>help somebody do something</strong></td>
+        <td class="en">Some children help their parents cook.</td>
+        <td class="en">help their parents to cook</td>
+      </tr>
+      <tr>
+        <td><strong>make somebody do something</strong></td>
+        <td class="en">No parent makes their children eat unhealthy food.</td>
+        <td class="en">makes their children to eat</td>
+      </tr>
+      <tr>
+        <td><strong>let somebody do something</strong></td>
+        <td class="en">Some parents let their children eat fast food regularly.</td>
+        <td class="en">let their children to eat</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="practice"><div class="sec-title"><div class="icon">✏</div>PRACTICE</div><div class="ex-block" id="pb1"><h3><span class="ex-num">Bài 1</span> Chọn đáp án đúng để hoàn thiện các câu sau</h3><div class="ex-item"><span class="num">1.</span> The government is considering <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">banning</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to ban</button></span> the use of pesticides.</div><div class="ex-item"><span class="num">2.</span> Children should avoid <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">eating</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to eat</button></span> junk food.</div><div class="ex-item"><span class="num">3.</span> People should practice <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">maintaining</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to maintain</button></span> a healthy eating habit.</div><div class="ex-item"><span class="num">4.</span> Nowadays, most young people choose <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to lead</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">leading</button></span> a sedentary lifestyle.</div><div class="ex-item"><span class="num">5.</span> Eating more vegetables helps <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">strengthen</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">strengthening</button></span> the immune system.</div><div class="ex-item"><span class="num">6.</span> Busy parents tend <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to buy</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">buying</button></span> fast food for their children to save time.</div><div class="ex-item"><span class="num">7.</span> The government should persuade food companies <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to sell</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">selling</button></span> high-quality products to consumers.</div><div class="ex-item"><span class="num">8.</span> The government prohibited <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">selling</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">sell</button></span> junk food to children.</div><div class="ex-item"><span class="num">9.</span> Parents should discourage their children <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">from eating</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to eat</button></span> fast food.</div><div class="ex-item"><span class="num">10.</span> Not many people can continue <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">going</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to go</button></span> on a diet after they have failed once.</div>
+  <button class="check-btn" onclick="checkMC('pb1')">✔ Kiểm tra đáp án</button>
+  <button class="reset-btn" onclick="resetMC('pb1')">↺ Làm lại</button>
+  <div id="pb1-score"></div>
+  <div class="answer-key" id="pb1-ans">
+    <strong>Đáp án:</strong> 1. banning &nbsp;|&nbsp; 2. eating &nbsp;|&nbsp; 3. maintaining &nbsp;|&nbsp; 4. to lead &nbsp;|&nbsp; 5. strengthen &nbsp;|&nbsp; 6. to buy &nbsp;|&nbsp; 7. to sell &nbsp;|&nbsp; 8. selling &nbsp;|&nbsp; 9. from eating &nbsp;|&nbsp; 10. going
+  </div>
+</div>
+<div class="ex-block" id="pb2"><h3><span class="ex-num">Bài 2</span> Sửa lại các từ hoặc cụm từ bị gạch chân trong những câu sau</h3><div class="ex-item"><span class="num">1.</span> The unhealthy food environment is threatening <u>making</u> people overweight.<br/>→ Sửa thành: <input class="fill-input" data-ans="to make" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(threatening → to make)</span></div><div class="ex-item"><span class="num">2.</span> Overweight people often fail <u>keeping</u> a balanced diet.<br/>→ Sửa thành: <input class="fill-input" data-ans="to keep" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(fail → to keep)</span></div><div class="ex-item"><span class="num">3.</span> Parents should urge their children to <u>exercising</u> to maintain their health.<br/>→ Sửa thành: <input class="fill-input" data-ans="exercise" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(to exercising → to exercise)</span></div><div class="ex-item"><span class="num">4.</span> Parents should not allow their children <u>eat</u> junk food on a daily basis.<br/>→ Sửa thành: <input class="fill-input" data-ans="to eat" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(eat → to eat)</span></div><div class="ex-item"><span class="num">5.</span> Many busy people are struggling <u>lose</u> weight by exercising regularly.<br/>→ Sửa thành: <input class="fill-input" data-ans="to lose" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(lose → to lose)</span></div><div class="ex-item"><span class="num">6.</span> People should learn to <u>maintaining</u> a balanced diet.<br/>→ Sửa thành: <input class="fill-input" data-ans="maintain" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(maintaining → maintain)</span></div><div class="ex-item"><span class="num">7.</span> A workout routine at home helps people <u>saving</u> money.<br/>→ Sửa thành: <input class="fill-input" data-ans="save" placeholder="Nhập từ đúng..." style="min-width:150px;"/> <span style="color:#64748b;font-size:13px;">(saving → save)</span></div>
+  <button class="check-btn" onclick="checkFill('pb2')">✔ Kiểm tra đáp án</button>
+  <button class="reset-btn" onclick="resetFill('pb2')">↺ Làm lại</button>
+  <div id="pb2-score"></div>
+  <div class="answer-key" id="pb2-ans">
+    <strong>Đáp án:</strong> 1. to make &nbsp;|&nbsp; 2. to keep &nbsp;|&nbsp; 3. exercise &nbsp;|&nbsp; 4. to eat &nbsp;|&nbsp; 5. to lose &nbsp;|&nbsp; 6. maintain &nbsp;|&nbsp; 7. save
+  </div>
+</div>
+<div class="ex-block" id="pb3"><h3><span class="ex-num">Bài 3</span> Điền dạng đúng của các từ trong ngoặc để hoàn thành các câu sau</h3><div class="ex-item"><span class="num">1.</span> Not many people want <input class="fill-input" data-ans="to follow" placeholder="(follow)" style="min-width:130px;"/> a healthy diet. <span style="color:#64748b;font-size:12px;">(want + to V)</span></div><div class="ex-item"><span class="num">2.</span> Children need <input class="fill-input" data-ans="to have" placeholder="(have)" style="min-width:130px;"/> a healthy diet. <span style="color:#64748b;font-size:12px;">(need + to V)</span></div><div class="ex-item"><span class="num">3.</span> Overweight people should devote their time to <input class="fill-input" data-ans="exercising" placeholder="(exercise)" style="min-width:130px;"/> a healthy diet. <span style="color:#64748b;font-size:12px;">(devote time to + V-ing)</span></div><div class="ex-item"><span class="num">4.</span> Actions to improve public health can begin with <input class="fill-input" data-ans="increasing" placeholder="(increase)" style="min-width:130px;"/> a healthy diet. <span style="color:#64748b;font-size:12px;">(begin with + V-ing)</span></div><div class="ex-item"><span class="num">5.</span> Children often refuse <input class="fill-input" data-ans="to listen" placeholder="(listen)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(refuse + to V)</span></div><div class="ex-item"><span class="num">6.</span> The government should ban farmers from <input class="fill-input" data-ans="using" placeholder="(use)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(ban from + V-ing)</span></div><div class="ex-item"><span class="num">7.</span> Most busy parents want their children <input class="fill-input" data-ans="to cook" placeholder="(cook)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(want sb + to V)</span></div><div class="ex-item"><span class="num">8.</span> The government has prohibited <input class="fill-input" data-ans="advertising" placeholder="(advertise)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(prohibit + V-ing)</span></div><div class="ex-item"><span class="num">9.</span> Old people should choose <input class="fill-input" data-ans="to take up" placeholder="(take up)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(choose + to V)</span></div><div class="ex-item"><span class="num">10.</span> Many large food distributors have never apologized for <input class="fill-input" data-ans="selling" placeholder="(sell)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(apologize for + V-ing)</span></div><div class="ex-item"><span class="num">11.</span> The authorities are planning <input class="fill-input" data-ans="to prevent" placeholder="(prevent)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(plan + to V)</span></div><div class="ex-item"><span class="num">12.</span> Overweight people should refrain from <input class="fill-input" data-ans="consuming" placeholder="(consume)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(refrain from + V-ing)</span></div><div class="ex-item"><span class="num">13.</span> The authorities have warned farmers <input class="fill-input" data-ans="not to irrigate" placeholder="(not irrigate)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(warn sb + not to V)</span></div><div class="ex-item"><span class="num">14.</span> The government are forcing some factories <input class="fill-input" data-ans="to shut down" placeholder="(shut down)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(force sb + to V)</span></div><div class="ex-item"><span class="num">15.</span> Parents should always remind their children <input class="fill-input" data-ans="to play" placeholder="(play)" style="min-width:130px;"/> <span style="color:#64748b;font-size:12px;">(remind sb + to V)</span></div><div class="ex-block" id="pb3"><h3><span class="ex-num">Bài 3</span> Điền dạng đúng của các từ trong ngoặc để hoàn thành các câu sau</h3><div class="ex-item"><span class="num">1.</span> Not many people want <input class="fill-input" data-ans="to follow" placeholder="(follow)" style="min-width:130px;"/> a healthy diet. <span style="color:#64748b;font-size:12px;">(want + to V)</span></div><div class="ex-item"><span class="num">2.</span> Children need <input class="fill-input" data-ans="to have" placeholder="(have)" style="min-width:130px;"/> the freedom of doing whatever they want. <span style="color:#64748b;font-size:12px;">(need + to V)</span></div><div class="ex-item"><span class="num">3.</span> Overweight people should devote their time to <input class="fill-input" data-ans="exercising" placeholder="(exercise)" style="min-width:130px;"/> regularly. <span style="color:#64748b;font-size:12px;">(devote time to + V-ing)</span></div><div class="ex-item"><span class="num">4.</span> Actions to improve public health can begin with <input class="fill-input" data-ans="increasing" placeholder="(increase)" style="min-width:130px;"/> the number of sports facilities. <span style="color:#64748b;font-size:12px;">(begin with + V-ing)</span></div><div class="ex-item"><span class="num">5.</span> Children often refuse <input class="fill-input" data-ans="to listen" placeholder="(listen)" style="min-width:130px;"/> to their parents' advice on their diet. <span style="color:#64748b;font-size:12px;">(refuse + to V)</span></div><div class="ex-item"><span class="num">6.</span> The government should ban farmers from <input class="fill-input" data-ans="using" placeholder="(use)" style="min-width:130px;"/> chemicals in irrigation. <span style="color:#64748b;font-size:12px;">(ban from + V-ing)</span></div><div class="ex-item"><span class="num">7.</span> Most busy parents want their children <input class="fill-input" data-ans="to cook" placeholder="(cook)" style="min-width:130px;"/> for themselves. <span style="color:#64748b;font-size:12px;">(want sb + to V)</span></div><div class="ex-item"><span class="num">8.</span> The government has prohibited <input class="fill-input" data-ans="advertising" placeholder="(advertise)" style="min-width:130px;"/> fast food during TV programs for children. <span style="color:#64748b;font-size:12px;">(prohibit + V-ing)</span></div><div class="ex-item"><span class="num">9.</span> Old people should choose <input class="fill-input" data-ans="to take up" placeholder="(take up)" style="min-width:130px;"/> gentle sports to maintain their health. <span style="color:#64748b;font-size:12px;">(choose + to V)</span></div><div class="ex-item"><span class="num">10.</span> Many large food distributors have never apologized for <input class="fill-input" data-ans="selling" placeholder="(sell)" style="min-width:130px;"/> low-quality food to consumers. <span style="color:#64748b;font-size:12px;">(apologize for + V-ing)</span></div><div class="ex-item"><span class="num">11.</span> The authorities are planning <input class="fill-input" data-ans="to prevent" placeholder="(prevent)" style="min-width:130px;"/> food producers from distributing unhealthy food. <span style="color:#64748b;font-size:12px;">(plan + to V)</span></div><div class="ex-item"><span class="num">12.</span> Overweight people should refrain from <input class="fill-input" data-ans="consuming" placeholder="(consume)" style="min-width:130px;"/> too much fast food. <span style="color:#64748b;font-size:12px;">(refrain from + V-ing)</span></div><div class="ex-item"><span class="num">13.</span> The authorities have warned farmers <input class="fill-input" data-ans="not to irrigate" placeholder="(not irrigate)" style="min-width:130px;"/> with chemicals. <span style="color:#64748b;font-size:12px;">(warn sb + not to V)</span></div><div class="ex-item"><span class="num">14.</span> The government are forcing some factories <input class="fill-input" data-ans="to shut down" placeholder="(shut down)" style="min-width:130px;"/> their production of unhealthy foodstuffs. <span style="color:#64748b;font-size:12px;">(force sb + to V)</span></div><div class="ex-item"><span class="num">15.</span> Parents should always remind their children <input class="fill-input" data-ans="to play" placeholder="(play)" style="min-width:130px;"/> more sports and less video games. <span style="color:#64748b;font-size:12px;">(remind sb + to V)</span></div><div class="ex-item"><span class="num">16.</span> Scientists recommend people <input class="fill-input" data-ans="to eat|eating" placeholder="(eat)" style="min-width:130px;"/> more vegetables instead of meat. <span style="color:#64748b;font-size:12px;">(recommend sb + to V)</span></div>
+  <button class="check-btn" onclick="checkFill('pb3')">✔ Kiểm tra đáp án</button>
+  <button class="reset-btn" onclick="resetFill('pb3')">↺ Làm lại</button>
+  <div id="pb3-score"></div>
+  <div class="answer-key" id="pb3-ans">
+    <strong>Đáp án:</strong> 1. to follow &nbsp;|&nbsp; 2. to have &nbsp;|&nbsp; 3. exercising &nbsp;|&nbsp; 4. increasing &nbsp;|&nbsp; 5. to listen &nbsp;|&nbsp; 6. using &nbsp;|&nbsp; 7. to cook &nbsp;|&nbsp; 8. advertising &nbsp;|&nbsp; 9. to take up &nbsp;|&nbsp; 10. selling &nbsp;|&nbsp; 11. to prevent &nbsp;|&nbsp; 12. consuming &nbsp;|&nbsp; 13. not to irrigate &nbsp;|&nbsp; 14. to shut down &nbsp;|&nbsp; 15. to play &nbsp;|&nbsp; 16. to eat / eating
+  </div>
+</div>
+<div class="ex-block" id="pb4"><h3><span class="ex-num">Bài 4</span> Dịch các câu sau sang tiếng Anh</h3><div class="trans-item"><div class="trans-vi"><span class="num">1.</span> Chính phủ đang lên kế hoạch khuyến khích người dân ăn uống lành mạnh hơn.</div><div class="trans-hint">💡 encourage: khuyến khích</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans1"><strong>Gợi ý đáp án:</strong> The government is planning to encourage people to eat more healthily.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">2.</span> Việc tiêu thụ đầy đủ dưỡng chất giúp mọi người tăng cường sức khỏe.</div><div class="trans-hint">💡 consume: tiêu thụ | nutrients: dưỡng chất | strengthen: tăng cường</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans2"><strong>Gợi ý đáp án:</strong> Consuming sufficient nutrients helps people strengthen their health.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">3.</span> Hầu hết mọi người từ bỏ tập thể dục sau một khoảng thời gian ngắn.</div><div class="trans-hint">💡 a short amount of time: một khoảng thời gian ngắn</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans3"><strong>Gợi ý đáp án:</strong> Most people quit exercising after a short amount of time.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">4.</span> Chính phủ cấm bán đồ ăn nhanh cho người thừa cân.</div><div class="trans-hint">💡 overweight people: người thừa cân</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans4"><strong>Gợi ý đáp án:</strong> The government prohibited selling fast food to overweight people.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">5.</span> Một lộ trình tập thể dục tại nhà có thể giúp mọi người tiết kiệm một khoản tiền đáng kể.</div><div class="trans-hint">💡 workout routine: lộ trình tập thể dục | save: tiết kiệm | significant: đáng kể</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans5"><strong>Gợi ý đáp án:</strong> A workout routine at home can help people save a significant amount of money.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">6.</span> Chính phủ đang yêu cầu các nhà phân phối kiểm soát chất lượng đồ ăn một cách nghiêm ngặt hơn.</div><div class="trans-hint">💡 distributors: nhà phân phối | control: kiểm soát | food quality: chất lượng đồ ăn | strict: nghiêm ngặt</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans6"><strong>Gợi ý đáp án:</strong> The government is requiring distributors to control food quality more strictly.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">7.</span> Bố mẹ nên khuyến khích con cái tránh xa các đồ ăn có hại cho sức khỏe.</div><div class="trans-hint">💡 unhealthy food: đồ ăn có hại cho sức khỏe</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans7"><strong>Gợi ý đáp án:</strong> Parents should encourage their children to avoid unhealthy food.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">8.</span> Sự dễ dàng tiếp cận với các trung tâm thể thao giúp mọi người hình thành một thói quen tập thể dục thường xuyên.</div><div class="trans-hint">💡 easy access: sự dễ dàng tiếp cận | form a habit of doing sth: hình thành một thói quen (làm gì đó)</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="pb4-ans8"><strong>Gợi ý đáp án:</strong> Easy access to sports centers helps people form a habit of exercising regularly.</div></div><button class="check-btn" onclick="checkTrans('pb4')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('pb4')">↺ Làm lại</button></div><div class="ex-block" id="pb5"><h3><span class="ex-num">Bài 5</span> Viết câu với các từ và yêu cầu cho sẵn</h3><div class="write-item"><div class="write-prompt"><span class="num">1.</span> Parents, their children, lead a healthy lifestyle. (sử dụng động từ <strong>teach</strong>)</div><div class="write-hint">💡 teach sb to do sth</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans1"><strong>Gợi ý đáp án:</strong> Parents teach their children to lead a healthy lifestyle.</div></div><div class="write-item"><div class="write-prompt"><span class="num">2.</span> The government, farmers, provide fresh food to citizens. (sử dụng động từ <strong>require</strong>)</div><div class="write-hint">💡 require sb to do sth | citizens: người dân</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans2"><strong>Gợi ý đáp án:</strong> The government requires farmers to provide fresh food to citizens.</div></div><div class="write-item"><div class="write-prompt"><span class="num">3.</span> People, tend, home-made food, avoid food poisoning. (sử dụng động từ <strong>cook</strong>)</div><div class="write-hint">💡 home-made food: đồ ăn tự làm | food poisoning: ngộ độc thực phẩm</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans3"><strong>Gợi ý đáp án:</strong> People tend to cook home-made food to avoid food poisoning.</div></div><div class="write-item"><div class="write-prompt"><span class="num">4.</span> Overweight children, limit their fat and sugar intake. (sử dụng động từ <strong>try</strong>)</div><div class="write-hint">💡 intake: lượng thức ăn/dưỡng chất được nạp vào</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans4"><strong>Gợi ý đáp án:</strong> Overweight children try to limit their fat and sugar intake.</div></div><div class="write-item"><div class="write-prompt"><span class="num">5.</span> Overweight children, eat less. (sử dụng động từ <strong>struggle</strong> và trạng từ <strong>often</strong>)</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans5"><strong>Gợi ý đáp án:</strong> Overweight children often struggle to eat less.</div></div><div class="write-item"><div class="write-prompt"><span class="num">6.</span> A healthy diet, more vegetables, less meat-based products. (sử dụng động từ <strong>require</strong>)</div><div class="write-hint">💡 meat-based products: sản phẩm làm từ thịt</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="pb5-ans6"><strong>Gợi ý đáp án:</strong> A healthy diet requires eating more vegetables and less meat-based products.</div></div><button class="check-btn" onclick="checkTrans('pb5')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('pb5')">↺ Làm lại</button></div></section><section id="homework"><div class="sec-title"><div class="icon">📚</div>HOMEWORK</div><div class="ex-block" id="hwb1"><h3><span class="ex-num">Bài 1</span> Chọn đáp án đúng để hoàn thiện các câu sau</h3><div class="ex-item"><span class="num">1.</span> The government is considering <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">banning</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to ban</button></span> the disposal of untreated industrial waste.</div><div class="ex-item"><span class="num">2.</span> Large corporations should avoid <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">polluting</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to pollute</button></span> local water sources.</div><div class="ex-item"><span class="num">3.</span> Communities should practice <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">sorting</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to sort</button></span> household waste before recycling.</div><div class="ex-item"><span class="num">4.</span> Nowadays, most young graduates choose <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to work</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">working</button></span> for environmentally friendly companies.</div><div class="ex-item"><span class="num">5.</span> Using renewable energy helps <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">reduce</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">reducing</button></span> greenhouse gas emissions.</div><div class="ex-item"><span class="num">6.</span> Busy students tend <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to rely</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">relying</button></span> on private vehicles instead of public transport to save time.</div><div class="ex-item"><span class="num">7.</span> The authorities should persuade citizens <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">to use</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">using</button></span> eco-friendly products.</div><div class="ex-item"><span class="num">8.</span> Several countries prohibited <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">importing</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to import</button></span> electronic waste.</div><div class="ex-item"><span class="num">9.</span> Schools should discourage students <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">from wasting</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to waste</button></span> electricity and paper.</div><div class="ex-item"><span class="num">10.</span> Not many people can continue <span class="mc-group"><button class="mc-btn" data-correct="true" onclick="selectMC(this)">saving</button><button class="mc-btn" data-correct="false" onclick="selectMC(this)">to save</button></span> energy after they have failed to maintain the habit.</div>
+  <button class="check-btn" onclick="checkMC('hwb1')">✔ Kiểm tra đáp án</button>
+  <button class="reset-btn" onclick="resetMC('hwb1')">↺ Làm lại</button>
+  <div id="hwb1-score"></div>
+  <div class="answer-key" id="hwb1-ans">
+    <strong>Đáp án:</strong> 1. banning &nbsp;|&nbsp; 2. polluting &nbsp;|&nbsp; 3. sorting &nbsp;|&nbsp; 4. to work &nbsp;|&nbsp; 5. reduce &nbsp;|&nbsp; 6. to rely &nbsp;|&nbsp; 7. to use &nbsp;|&nbsp; 8. importing &nbsp;|&nbsp; 9. from wasting &nbsp;|&nbsp; 10. saving
+  </div>
+</div>
+<div class="ex-block" id="hwb2"><h3><span class="ex-num">Bài 2</span> Điền dạng đúng của các từ trong ngoặc để hoàn thành các câu sau</h3><div class="ex-item"><span class="num">1.</span> Not many people want <input class="fill-input" data-ans="to install" placeholder="(install)" style="min-width:130px;"/> expensive solar panels at home. <span style="color:#64748b;font-size:12px;">(want + to V)</span></div><div class="ex-item"><span class="num">2.</span> Students need <input class="fill-input" data-ans="to have" placeholder="(have)" style="min-width:130px;"/> the opportunities to participate in green campaigns. <span style="color:#64748b;font-size:12px;">(need + to V)</span></div><div class="ex-item"><span class="num">3.</span> Environmentalists devote their time to <input class="fill-input" data-ans="raising" placeholder="(raise)" style="min-width:130px;"/> public awareness about climate change. <span style="color:#64748b;font-size:12px;">(devote time to + V-ing)</span></div><div class="ex-item"><span class="num">4.</span> Actions to protect endangered species can begin with <input class="fill-input" data-ans="establishing" placeholder="(establish)" style="min-width:130px;"/> more nature reserves. <span style="color:#64748b;font-size:12px;">(begin with + V-ing)</span></div><div class="ex-item"><span class="num">5.</span> Some citizens refuse <input class="fill-input" data-ans="to listen" placeholder="(listen)" style="min-width:130px;"/> to warnings about severe weather events. <span style="color:#64748b;font-size:12px;">(refuse + to V)</span></div><div class="ex-item"><span class="num">6.</span> Stricter laws prevent factories from <input class="fill-input" data-ans="releasing" placeholder="(release)" style="min-width:130px;"/> toxic fumes into the atmosphere. <span style="color:#64748b;font-size:12px;">(prevent from + V-ing)</span></div><div class="ex-item"><span class="num">7.</span> Most universities want their students <input class="fill-input" data-ans="to conduct" placeholder="(conduct)" style="min-width:130px;"/> research on sustainable development. <span style="color:#64748b;font-size:12px;">(want sb + to V)</span></div><div class="ex-item"><span class="num">8.</span> The government has prohibited <input class="fill-input" data-ans="cutting" placeholder="(cut)" style="min-width:130px;"/> down trees in protected forests. <span style="color:#64748b;font-size:12px;">(prohibit + V-ing)</span></div><div class="ex-item"><span class="num">9.</span> Young individuals should choose <input class="fill-input" data-ans="to pursue" placeholder="(pursue)" style="min-width:130px;"/> careers in the renewable energy sector. <span style="color:#64748b;font-size:12px;">(choose + to V)</span></div><div class="ex-item"><span class="num">10.</span> Many oil companies have never apologized for <input class="fill-input" data-ans="causing" placeholder="(cause)" style="min-width:130px;"/> massive oil spills in the ocean. <span style="color:#64748b;font-size:12px;">(apologize for + V-ing)</span></div><div class="ex-item"><span class="num">11.</span> The local council is planning <input class="fill-input" data-ans="to construct" placeholder="(construct)" style="min-width:130px;"/> more wind farms. <span style="color:#64748b;font-size:12px;">(plan + to V)</span></div><div class="ex-item"><span class="num">12.</span> Households should refrain from <input class="fill-input" data-ans="using" placeholder="(use)" style="min-width:130px;"/> single-use plastic bags. <span style="color:#64748b;font-size:12px;">(refrain from + V-ing)</span></div><div class="ex-item"><span class="num">13.</span> Environmental agencies have warned people <input class="fill-input" data-ans="not to litter" placeholder="(not litter)" style="min-width:130px;"/> in public parks. <span style="color:#64748b;font-size:12px;">(warn sb + not to V)</span></div><div class="ex-item"><span class="num">14.</span> Global warming is forcing many coastal residents <input class="fill-input" data-ans="to relocate" placeholder="(relocate)" style="min-width:130px;"/> to safer areas. <span style="color:#64748b;font-size:12px;">(force sb + to V)</span></div><div class="ex-item"><span class="num">15.</span> Teachers should always remind their students <input class="fill-input" data-ans="to turn off" placeholder="(turn off)" style="min-width:130px;"/> the lights before leaving the classroom. <span style="color:#64748b;font-size:12px;">(remind sb + to V)</span></div><div class="ex-item"><span class="num">16.</span> Scientists recommend countries <input class="fill-input" data-ans="to invest|investing" placeholder="(invest)" style="min-width:130px;"/> more in geothermal energy. <span style="color:#64748b;font-size:12px;">(recommend sb + to V)</span></div>
+  <button class="check-btn" onclick="checkFill('hwb2')">✔ Kiểm tra đáp án</button>
+  <button class="reset-btn" onclick="resetFill('hwb2')">↺ Làm lại</button>
+  <div id="hwb2-score"></div>
+  <div class="answer-key" id="hwb2-ans">
+    <strong>Đáp án:</strong> 1. to install &nbsp;|&nbsp; 2. to have &nbsp;|&nbsp; 3. raising &nbsp;|&nbsp; 4. establishing &nbsp;|&nbsp; 5. to listen &nbsp;|&nbsp; 6. releasing &nbsp;|&nbsp; 7. to conduct &nbsp;|&nbsp; 8. cutting &nbsp;|&nbsp; 9. to pursue &nbsp;|&nbsp; 10. causing &nbsp;|&nbsp; 11. to construct &nbsp;|&nbsp; 12. using &nbsp;|&nbsp; 13. not to litter &nbsp;|&nbsp; 14. to relocate &nbsp;|&nbsp; 15. to turn off &nbsp;|&nbsp; 16. to invest / investing
+  </div>
+</div>
+<div class="ex-block" id="hwb4"><h3><span class="ex-num">Bài 4</span> Dịch các câu sau sang tiếng Anh</h3><div class="trans-item"><div class="trans-vi"><span class="num">1.</span> Chính phủ đang lên kế hoạch khuyến khích người dân sử dụng phương tiện giao thông công cộng.</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans1"><strong>Gợi ý đáp án:</strong> The government is planning to encourage people to use public transport.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">2.</span> Việc sử dụng năng lượng mặt trời giúp các gia đình tiết kiệm một khoản tiền đáng kể.</div><div class="trans-hint">💡 solar energy: năng lượng mặt trời | save: tiết kiệm | significant: đáng kể</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans2"><strong>Gợi ý đáp án:</strong> Using solar energy helps families save a significant amount of money.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">3.</span> Hầu hết mọi người từ bỏ thói quen phân loại rác sau một khoảng thời gian ngắn.</div><div class="trans-hint">💡 sort waste: phân loại rác | give up: từ bỏ | a short amount of time: một khoảng thời gian ngắn</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans3"><strong>Gợi ý đáp án:</strong> Most people give up sorting waste after a short amount of time.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">4.</span> Chính phủ cấm các nhà máy xả chất thải hóa học chưa qua xử lý ra môi trường.</div><div class="trans-hint">💡 untreated chemical waste: chất thải hóa học chưa qua xử lý</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans4"><strong>Gợi ý đáp án:</strong> The government prohibited factories from releasing untreated chemical waste into the environment.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">5.</span> Một chiến dịch môi trường tại trường học có thể giúp học sinh hình thành thói quen tái chế.</div><div class="trans-hint">💡 campaign: chiến dịch | form a habit of: hình thành thói quen</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans5"><strong>Gợi ý đáp án:</strong> An environmental campaign at school can help students form a habit of recycling.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">6.</span> Chính phủ đang yêu cầu các doanh nghiệp kiểm soát lượng khí thải carbon một cách nghiêm ngặt hơn.</div><div class="trans-hint">💡 enterprises: các doanh nghiệp | control: kiểm soát | carbon emissions: lượng khí thải carbon | strict: nghiêm ngặt</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans6"><strong>Gợi ý đáp án:</strong> The government is requiring enterprises to control carbon emissions more strictly.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">7.</span> Bố mẹ nên khuyến khích con cái tránh xa các sản phẩm nhựa dùng một lần.</div><div class="trans-hint">💡 single-use plastic products: sản phẩm nhựa dùng một lần</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans7"><strong>Gợi ý đáp án:</strong> Parents should encourage their children to avoid single-use plastic products.</div></div><div class="trans-item"><div class="trans-vi"><span class="num">8.</span> Sự dễ dàng tiếp cận với các nguồn năng lượng sạch giúp các quốc gia giảm thiểu sự phụ thuộc vào nhiên liệu hóa thạch.</div><div class="trans-hint">💡 easy access: sự dễ dàng tiếp cận | clean energy sources: nguồn năng lượng sạch | reduce the reliance on fossil fuels: giảm thiểu sự phụ thuộc vào nhiên liệu hóa thạch</div><textarea class="trans-input" placeholder="Nhập câu dịch tiếng Anh..."></textarea><div class="trans-answer" id="hwb4-ans8"><strong>Gợi ý đáp án:</strong> Easy access to clean energy sources helps countries reduce their reliance on fossil fuels.</div></div><button class="check-btn" onclick="checkTrans('hwb4')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('hwb4')">↺ Làm lại</button></div><div class="ex-block" id="hwb5"><h3><span class="ex-num">Bài 5</span> Viết câu với các từ và yêu cầu cho sẵn</h3><div class="write-item"><div class="write-prompt"><span class="num">1.</span> Teachers, their students, protect the environment. (sử dụng động từ <strong>teach</strong>)</div><div class="write-hint">💡 teach sb to do sth</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans1"><strong>Gợi ý đáp án:</strong> Teachers teach their students to protect the environment.</div></div><div class="write-item"><div class="write-prompt"><span class="num">2.</span> The government, large factories, install waste treatment systems. (sử dụng động từ <strong>require</strong>)</div><div class="write-hint">💡 waste treatment systems: hệ thống xử lý chất thải</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans2"><strong>Gợi ý đáp án:</strong> The government requires large factories to install waste treatment systems.</div></div><div class="write-item"><div class="write-prompt"><span class="num">3.</span> Eco-friendly consumers, tend, organic products, protect their health. (sử dụng động từ <strong>buy</strong>)</div><div class="write-hint">💡 eco-friendly consumers: người tiêu dùng thân thiện với môi trường | organic products: sản phẩm hữu cơ</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans3"><strong>Gợi ý đáp án:</strong> Eco-friendly consumers tend to buy organic products to protect their health.</div></div><div class="write-item"><div class="write-prompt"><span class="num">4.</span> Developing nations, limit, environmental damage. (sử dụng động từ <strong>try</strong>)</div><div class="write-hint">💡 environmental damage: thiệt hại môi trường</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans4"><strong>Gợi ý đáp án:</strong> Developing nations try to limit environmental damage.</div></div><div class="write-item"><div class="write-prompt"><span class="num">5.</span> Remote areas, access, clean water. (sử dụng động từ <strong>struggle</strong> và trạng từ chỉ tần suất <strong>often</strong>)</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans5"><strong>Gợi ý đáp án:</strong> Remote areas often struggle to access clean water.</div></div><div class="write-item"><div class="write-prompt"><span class="num">6.</span> A sustainable lifestyle, more green spaces, less carbon footprints. (sử dụng động từ <strong>require</strong>)</div><div class="write-hint">💡 sustainable lifestyle: lối sống bền vững</div><textarea class="write-input" placeholder="Viết câu tiếng Anh..."></textarea><div class="write-answer" id="hwb5-ans6"><strong>Gợi ý đáp án:</strong> A sustainable lifestyle requires more green spaces and less carbon footprints.</div></div><button class="check-btn" onclick="checkTrans('hwb5')">✔ Xem đáp án gợi ý</button><button class="reset-btn" onclick="resetTrans('hwb5')">↺ Làm lại</button></div></section>
+</div>
+<footer>
+  <p>📝 <strong>Unit 2: Bổ Ngữ Của Động Từ</strong> &nbsp;|&nbsp; IELTS Writing – Grammar</p>
+  <p style="margin-top:6px;">Tài liệu học tập – Lưu hành nội bộ</p>
+</footer>
+<button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Lên đầu trang">↑</button>
+<script>
+function selectMC(btn){
+  const g=btn.closest('.mc-group');
+  g.querySelectorAll('.mc-btn').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+}
+function checkMC(id){
+  const block=document.getElementById(id);
+  const groups=block.querySelectorAll('.mc-group');
+  let ok=0,tot=0;
+  groups.forEach(g=>{
+    const sel=g.querySelector('.mc-btn.selected');
+    tot++;
+    g.querySelectorAll('.mc-btn').forEach(b=>{
+      b.classList.remove('correct','wrong','reveal-correct');
+      if(b.dataset.correct==='true') b.classList.add('reveal-correct');
+    });
+    if(sel){
+      if(sel.dataset.correct==='true'){sel.classList.add('correct');ok++;}
+      else sel.classList.add('wrong');
+    }
+  });
+  const sc=document.getElementById(id+'-score');
+  if(sc){const p=tot?Math.round(ok/tot*100):0;sc.innerHTML=`<div class="score-badge ${p>=80?'':p>=50?'mid':'bad'}">${ok}/${tot} đúng (${p}%)</div>`;}
+  const ak=document.getElementById(id+'-ans');if(ak)ak.classList.add('show');
+}
+function resetMC(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.mc-btn').forEach(b=>b.classList.remove('selected','correct','wrong','reveal-correct'));
+  const sc=document.getElementById(id+'-score');if(sc)sc.innerHTML='';
+  const ak=document.getElementById(id+'-ans');if(ak)ak.classList.remove('show');
+}
+function norm(s){return s.trim().toLowerCase().replace(/['']/g,"'");}
+function checkFill(id){
+  const block=document.getElementById(id);
+  const inputs=block.querySelectorAll('.fill-input');
+  let ok=0,tot=inputs.length;
+  inputs.forEach(inp=>{
+    const accepted=(inp.dataset.ans||'').split('|').map(a=>a.trim());
+    const good=accepted.some(a=>norm(inp.value)===norm(a));
+    inp.classList.remove('correct','wrong');
+    inp.classList.add(good?'correct':'wrong');
+    if(good)ok++;
+  });
+  const sc=document.getElementById(id+'-score');
+  if(sc){const p=tot?Math.round(ok/tot*100):0;sc.innerHTML=`<div class="score-badge ${p>=80?'':p>=50?'mid':'bad'}">${ok}/${tot} đúng (${p}%)</div>`;}
+  const ak=document.getElementById(id+'-ans');if(ak)ak.classList.add('show');
+}
+function resetFill(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.fill-input').forEach(inp=>{inp.value='';inp.classList.remove('correct','wrong');});
+  const sc=document.getElementById(id+'-score');if(sc)sc.innerHTML='';
+  const ak=document.getElementById(id+'-ans');if(ak)ak.classList.remove('show');
+}
+function checkTrans(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.trans-answer,.write-answer').forEach(el=>el.classList.add('show'));
+  block.querySelectorAll('.trans-input,.write-input').forEach(inp=>{if(inp.value.trim())inp.classList.add('checked');});
+}
+function resetTrans(id){
+  const block=document.getElementById(id);
+  block.querySelectorAll('.trans-input,.write-input').forEach(inp=>{inp.value='';inp.classList.remove('checked');});
+  block.querySelectorAll('.trans-answer,.write-answer').forEach(el=>el.classList.remove('show'));
+}
+document.addEventListener('DOMContentLoaded',()=>{
+  document.querySelectorAll('.fill-input').forEach(inp=>{
+    inp.addEventListener('keydown',e=>{if(e.key==='Enter'){const b=inp.closest('.ex-block');if(b)checkFill(b.id);}});
+  });
+});
+</script>
+</body>
+</html>
